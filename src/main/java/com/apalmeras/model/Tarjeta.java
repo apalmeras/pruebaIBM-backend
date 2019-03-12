@@ -43,6 +43,8 @@ public class Tarjeta implements Serializable {
 	@JoinColumn(name = "id_cliente", nullable = false)
 	private Cliente cliente;
 	
+	
+	
 	public int getIdTarjeta() {
 		return idTarjeta;
 	}
@@ -82,6 +84,9 @@ public class Tarjeta implements Serializable {
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
+
+	
+	
 
 	
 	

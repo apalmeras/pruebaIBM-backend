@@ -33,7 +33,7 @@ public class DetalleConsumo implements Serializable {
 
 	@JsonIgnore
 	@ManyToOne
-	@JoinColumn(name = "id_tarjeta", nullable = false)
+	@JoinColumn(name = "idTarjeta", nullable = false)
 	private Tarjeta tarjeta;
 
 	@JsonFormat(pattern = "dd/MM/yyyy") // ISODate 2018-10-01
