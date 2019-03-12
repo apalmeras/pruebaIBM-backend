@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import com.apalmeras.model.DetalleConsumo;
-import com.apalmeras.model.Tarjeta;
 
 
 public interface DetelleConsumoRepository extends JpaRepository<DetalleConsumo, Serializable> {
