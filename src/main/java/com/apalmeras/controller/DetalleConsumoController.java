@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.apalmeras.model.DetalleConsumo;
-import com.apalmeras.model.Tarjeta;
 import com.apalmeras.service.IDetalleConsumoService;
 
 @RestController
